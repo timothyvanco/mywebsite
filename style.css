@@ -1,0 +1,1012 @@
+p, h1 { margin: 0; padding: 0; }
+
+
+h1 {
+    font-family: 'Lato', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+
+body {
+    width: auto;
+    
+    
+    text-transform: none; 
+    -webkit-font-smoothing: subpixel-antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
+    text-rendering: optimizeLegibility;
+}
+
+a{text-decoration: none;color: black;}
+
+
+#widthHeading, #widthAbout, #widthOffer {
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#widthSuccess, #widthVision, #widthJarvis {
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+#widthFreetime {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0px;
+}
+
+
+#particles-js{
+  
+    position: relative;
+}
+
+header {
+    background: url(pictures/me32.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;   
+}
+
+
+#prve {
+    position: absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 40px;
+    line-height: 1.385;
+    overflow: auto;
+}
+
+
+#oslovenie {
+    padding: 130px 20px 0;
+    text-align: left;
+    font-size: 120px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#techProblems {
+    color: red;
+}
+
+b {
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+
+#datum {
+    font-weight: 100;
+    font-size: 35px;
+}
+
+#zaujem {
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 35px;
+    
+    /*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: 1.2px;
+    color: black;  
+    
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    line-height: 1.385;
+    overflow: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#name {
+    font-weight: 1000;
+    font-size: 50px;
+    font-family: 'Timmana', sans-serif;
+}
+
+#aboutme {
+    font-size: 140%;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+#heading {
+    background-color: #414141; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#414141, #a6acb2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#414141, #a6acb2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#414141, #a6acb2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#414141, #a6acb2); /* Standard syntax */
+    
+    
+}
+
+#heading h1{
+    text-transform: uppercase;
+    display: block;
+    font-weight: 400;
+    font-size: 100px;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Timmana', sans-serif;
+    text-align: center;
+    line-height: 1.385;
+    letter-spacing: 30px;
+    border-top: 7px solid black;
+    margin-bottom: 10px;
+}
+
+#heading p{
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px auto;
+    border-bottom: 7px solid black;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#because {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: 1.3;
+    font-size: 30px;
+    color: ghostwhite;
+    
+}
+
+.wrapper {
+    width: 100%;
+    padding-top: 20px;
+    color: #292d30;
+}
+
+#education h2:before {
+    content: '\f19d';
+    color: #838383;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 15px;
+}  
+
+#experience h2:before {
+    content: '\f0b1';
+    color: #838383;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#skills h2:before {
+    content: '\f085';
+    color: #838383;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#hobby h2:before {
+    content: '\f1e3';
+    color: #838383;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.wrapper h2{
+    font-family: 'Timmana', sans-serif;
+    text-transform: uppercase;
+    /*font-family: Copperplate, 'Copperplate Gothic Light', fantasy;*/
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 26px;
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 5px solid black;
+    margin-right: 70px;
+    margin-bottom: 0px;
+}
+
+
+.row {
+    width: 100%;
+    height: 50%;
+    display: block;
+}
+
+.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.date {
+    display: block;
+    line-height: 18px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dateH {
+    display: inline-block;
+    line-height: 18px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.info {
+    display: block;
+    padding-right: 10%;
+    font-family: 'Raleway', sans-serif;
+    line-height: 23px;
+    color: #414141;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.infoH {
+    display: inline;
+    padding-right: 10%;
+    font-family: 'Raleway', sans-serif;
+    line-height: 23px;
+    color: #414141;
+    font-size: 20px;
+}
+
+#aboutme ul {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;     
+}
+
+#aboutme li {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+
+#aboutme ul li strong {
+    display: block;
+    font-weight: 400;
+    font-size: 27px; 
+}
+
+#and {
+    font-family: 'Rock Salt', cursive;
+}
+
+#offer {
+    background-color: #a6acb2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a6acb2, #1b1b1b); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a6acb2, #1b1b1b); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a6acb2, #1b1b1b); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a6acb2, #1b1b1b); /* Standard syntax */
+    font-size: 140%;
+}
+
+
+#offer ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 80px;
+
+}
+
+#offer li:before {
+    content: '\f178';
+    color: #e9eff4;
+    font-family: FontAwesome;
+    font-size: 30px;
+    display: inline-block;
+    width: 50px;
+    margin-left: -50px;
+  
+}
+
+#offer li{
+    padding-left: 40px;
+    margin-bottom: 22px;
+    line-height: 1.5em;
+    color: #e9eff4;
+    font-size: 40;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#dot {
+    color: red;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.word {
+    color: #262626;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Timmana', sans-serif;
+    padding-right: 7px;
+    /*font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif;*/
+    
+}
+
+
+
+#offer h1 {
+    padding: 1em 0 0 0;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    /*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+    font-family: 'Timmana', sans-serif;
+    color: snow;
+    font-weight: 900;
+}
+
+#offer h2 {
+    padding: 1em 0 .8em 0;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: snow;
+    font-weight: 900;
+}
+
+#offer ul li strong {
+    
+    font-weight: bolder;
+}
+
+#success {
+    font-size: 140%;
+    font-family: 'Lato', 'Helvetica Neue', Verdana, Geneva, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.column2 {
+    display: block;
+    vertical-align: top;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#succ{
+    text-align: center;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 40px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    border: 7px solid gold;
+    
+}
+
+#success ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#success ul li{
+    margin-bottom: 40px;
+    
+    line-height: 1.5em;
+    font-size: 45;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+
+.column2 ul li img {
+    width: 70px;
+    float: left;
+    vertical-align: middle;
+}
+
+#success ul li p{
+    margin-left: 90px;
+    padding-top: 17px;
+    
+}
+
+.award {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.datee {
+    display: inline-block;
+    line-height: 25px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#vision {
+    background-color: #1b1b1b;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#vision h2 {
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#vision h4 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+}
+
+#visionn {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    font-size: 50px;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 40px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px; 
+}
+
+.roww {
+    width: 100%;
+    display: block;
+}
+
+.roww ul li img{
+    max-width: 300px;   
+    margin: 10px 30px 10px 0px;
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+#textvision {
+    display: inline;
+    width: 70%;
+    height: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 15px;
+    color: #cbcbcb;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#vision iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+
+#jarvis {
+    background-color: #b8b8b8;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#jarvis h2 {
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 28px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#jarvis h4 {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+}
+
+#jarviss {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 60px;
+    font-size: 50px;
+    font-family: Copperplate, 'Copperplate Gothic Light', fantasy;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 40px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px; 
+}
+
+#textjarvis {
+    display: inline;
+    width: 70%;
+    height: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 15px;
+    color: #111111;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#textjarvisright {
+    display: inline;
+    width: 70%;
+    height: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 15px;
+    color: #111111;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+#textjarvismain {
+    display: inline;
+    width: 70%;
+    height: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 15px;
+    color: #111111;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#headingjarvis1 {
+    display: block;
+    font-family: 'Timmana', sans-serif;
+    text-transform: uppercase;
+    /*font-family: Copperplate, 'Copperplate Gothic Light', fantasy;*/
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 26px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#headingjarvis1:before {
+    content: '\f2c9';
+    color: white;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#headingjarvis2 {
+    display: block;
+    font-family: 'Timmana', sans-serif;
+    text-transform: uppercase;
+    /*font-family: Copperplate, 'Copperplate Gothic Light', fantasy;*/
+    text-align: right;
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 26px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#headingjarvis2:after {
+    content: '\f085';
+    color: white;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#headingjarvis3 {
+    display: block;
+    font-family: 'Timmana', sans-serif;
+    text-transform: uppercase;
+    /*font-family: Copperplate, 'Copperplate Gothic Light', fantasy;*/
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 26px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#headingjarvis3:before {
+    content: '\f121';
+    color: white;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#jarvis iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+
+#freetime h1 {
+    padding: 0.8em 0 0.2em 0;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: snow;
+    font-weight: 900;
+}
+
+#freetime {
+    background-color: #579757;
+}
+
+#freetime a:hover {text-decoration: none; color: snow;}
+
+
+#widthHelp {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+#help {
+    background-color: #EB7F00;
+    margin: 0;
+}
+
+#help h2 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: snow;
+    font-weight: 900;
+}
+
+#help p {
+    margin: 0 5%;
+    padding-bottom: 30px;
+    font-size: 23px;
+    text-align: center;
+    line-height: 40px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: snow;
+    font-weight: 4500;
+}
+
+
+
+#contact {
+    background-color: black;
+    margin: 0;
+    padding-bottom: 40px;
+    color: #EB7F00;
+}
+
+#widthContact {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+#contact h1 {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 900;
+}
+
+#contact ul {
+        padding: 0;
+    }
+
+#contact h3 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 600;
+}
+
+#contact h2 {  
+    font-size: 50px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 600;
+    border: 2px solid #EB7F00;
+    padding: 10px 10px;
+    background-color: #271500;
+}
+
+#social {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#social ul li i{
+    color: #EB7F00;
+}
+
+#social ul li i:hover {
+    color: aliceblue;
+}
+
+#email{
+    color: #EB7F00;
+}
+
+#email:hover{
+    color: aliceblue;
+}
+
+#contact h2:hover {  
+    font-size: 50px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 600;
+    border: 2px solid aliceblue;
+    padding: 10px 10px;
+    background-color: #271500;
+}
+
+#contact h2:hover
+
+#contact a {
+    text-decoration: none;
+}
+
+.item {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+
+
+/*---------------------*/
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -10px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+/* Caption text */
+.text {
+    color: snow;
+    font-size: 23px;
+    padding: 8px 12px;
+    /*position: absolute;*/
+    
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.linkInDomotron {
+    color: #414141; 
+}
+
+.linkInFreeTimeProjects:hover {
+    color: red;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor:pointer;
+    height: 20px;
+    width: 20px;
+    margin: 0 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.slideshow-container {display: block;margin: 0 auto;}
+
+.slideshow-container img{
+    width: 700px;
+    max-height: 450px;
+    border-radius: 1%;
+    display: block;
+}
+
+.slideshow-container h3{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 10px;
+    color: white;
+}
+
+#dot-slide {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+@media (max-height : 600px){ 
+    #oslovenie {padding-top: 130px;font-size: 80px;}
+}
+
+
+@media (max-height : 460px){ 
+    #oslovenie {padding-top: 70px;font-size: 70px;;}
+}
+
+@media (max-height : 350px){ 
+    #oslovenie {padding-top: 50px;font-size: 60px;;}
+}
+
+@media (max-height : 290px){ 
+    #oslovenie {padding-top: 25px;font-size: 40px;}
+}
+
+@media (min-width : 1025px) { 
+    header {height: 100vh;}
+}
+
+@media (max-width : 1024px) { 
+	
+    b {font-size: 30px;}
+    b:hover {color: red;line-height: 1.1;font-weight: 1100;font-size: 40px;}
+    #datum {font-weight: 200;font-size: 20px;}
+    #zaujem {letter-spacing: 1.2px;margin: 30px 10%;padding: 0;line-height: 1.2;overflow: auto;}
+    #widthHeading, #widthAbout, #widthOffer, #widthSuccess, #widthVision, #widthJarvis, #widthFreetime, #widthHelp, #widthContact {width: auto;margin: 0 5%;}
+    #widthHeading h1 {font-size: 80px;text-align: center;letter-spacing: 20px;}
+    #because {display: block; line-height: 1; font-size: 25px;}
+    .column {display: block;width: 100%;}
+    .wrapper h2{font-size: 45px;}
+    #offer h1 {padding: 0.5em 0;font-size: 35px;}
+    #offer ul{margin: 0;}
+    #succ {font-size: 60px;margin-bottom: 20px;margin-top: 20px;border: 4px solid gold;letter-spacing: 20px;}
+    #success ul {margin: 0;font-size: 20px;}
+    .column2 ul li img {width: 60px;}
+    #success ul li p {margin-left: 70px;padding-top: 10px;}
+}
+
+@media (max-width : 766px) { 
+	
+    #succ {font-size: 40px;border: 3px solid gold;letter-spacing: 15px;}
+    #visionn {font-size: 50px;line-height: 30px;padding: 0;}
+    #jarviss {font-size: 50px;line-height: 30px;padding: 0;}
+    .roww ul li img {display: block;margin: 5% auto;float: none;}
+    #vision iframe {width: 100%;max-width: 560px;}
+    #jarvis iframe {width: 100%;max-width: 560px;}
+    .slideshow-container img {max-height: 300px;max-width: 100%;}
+    #contact h2 {font-size: 30px;}
+    #contact h1 {font-size: 40px;}  
+    #contact h2:hover {font-size: 35px;}
+}
+
+@media (max-width : 450px) { 
+    
+    #prve {overflow: hidden;}
+	#oslovenie {padding-top: 350px;font-size: 60px;}
+    #widthHeading h1 {font-size: 50px;letter-spacing: 15px;}
+    .wrapper h2{font-size: 35px;margin-right: 0;}
+    #succ {font-size: 30px;}
+    #visionn {font-size: 40px;letter-spacing: 20px;}
+    #jarviss {font-size: 40px;letter-spacing: 20px;}
+    #freetime h1 {font-size: 50px;}
+    #contact h1 {font-size: 30px;} 
+    #contact h3 {font-size: 25px;}
+    #contact h2 {font-size: 22px;}
+    .item {margin: 0 5px;}
+    #contact h2:hover {font-size: 22px;}
+}
+
